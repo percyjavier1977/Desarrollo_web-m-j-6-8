@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web con elementos semánticos y multimedia</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+        <nav>
+            <a href="#inicio">Sobre mi</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Te cuento algo sobre mi persona.</h2>
+        <p>Hola, soy un entusiasta de desarrolloweb. Me gusta crear sitios web que sean muy accesible y fáciles de usar o entender. </p>
+        <figure>
+            <img src="perfil.png" alt="Imagen de mi perfil" width="300">
+            <figcaption>Foto de perfil</figcaption>
+        </figure>
+    </section>
+    <section id="portafolio">
+        <h2>Mi portafolio</h2>
+        <p>Aquí encontrara algunos videos de misnproyectos recientes:</p>
+        <h3>Video de Youtube</h3>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Q_UEY3c7aY?si=jmHk3AFeJ9p6_gqR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h3>Video de Vimeo</h3>
+        <div>
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/908486291?h=9d599e3bc3" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+        </div>
+        <h3>Video de archivo</h3>
+        <div>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section id="audio">
+        <h2>Mi musica favorita</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+        <p>Escucha una de mis caciones favoritas mientras navegas</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mi nombre es Diseñardo web. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
